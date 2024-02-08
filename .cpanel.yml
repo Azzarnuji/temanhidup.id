@@ -1,6 +1,0 @@
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/nyuz8487/public_html/
-    - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH 
-    - /bin/cp .htaccess $DEPLOYPATH
